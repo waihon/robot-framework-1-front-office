@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20230524 23:37:28.041" rpa="false" schemaversion="3">
+<suite id="s1" name="FrontOffice" source="C:\Users\waihon.yew\OneDrive\Documents\SQA\robot-framework-level-1\front-office\tests\FrontOffice.robot">
+<test id="s1-t1" name="Should be able to access &quot;Team&quot; page" line="15">
+<kw name="Begin Web Test" library="CommonWeb" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230524 23:37:28.332" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<msg timestamp="20230524 23:37:28.339" level="INFO">Applicable driver not found; attempting to install with Selenium Manager (Beta)</msg>
+<status status="PASS" starttime="20230524 23:37:28.331" endtime="20230524 23:37:31.034"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230524 23:37:31.034" endtime="20230524 23:37:31.161"/>
+</kw>
+<status status="PASS" starttime="20230524 23:37:28.331" endtime="20230524 23:37:31.161"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Executing test 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230524 23:37:31.162" level="INFO">Executing test 1</msg>
+<status status="PASS" starttime="20230524 23:37:31.162" endtime="20230524 23:37:31.162"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230524 23:37:33.163" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230524 23:37:31.163" endtime="20230524 23:37:33.163"/>
+</kw>
+<kw name="End Web Test" library="CommonWeb" type="TEARDOWN">
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230524 23:37:36.165" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230524 23:37:33.164" endtime="20230524 23:37:36.165"/>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20230524 23:37:36.165" endtime="20230524 23:37:42.698"/>
+</kw>
+<status status="PASS" starttime="20230524 23:37:33.164" endtime="20230524 23:37:42.698"/>
+</kw>
+<doc>This is test 1</doc>
+<tag>test1</tag>
+<status status="PASS" starttime="20230524 23:37:28.330" endtime="20230524 23:37:42.699"/>
+</test>
+<test id="s1-t2" name="&quot;Team&quot; page should match requirements" line="21">
+<kw name="Begin Web Test" library="CommonWeb" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230524 23:37:42.705" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<msg timestamp="20230524 23:37:42.720" level="INFO">Applicable driver not found; attempting to install with Selenium Manager (Beta)</msg>
+<status status="PASS" starttime="20230524 23:37:42.704" endtime="20230524 23:37:45.192"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230524 23:37:45.193" endtime="20230524 23:37:45.320"/>
+</kw>
+<status status="PASS" starttime="20230524 23:37:42.703" endtime="20230524 23:37:45.320"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Executing test 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230524 23:37:45.322" level="INFO">Executing test 2</msg>
+<status status="PASS" starttime="20230524 23:37:45.321" endtime="20230524 23:37:45.322"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230524 23:37:47.322" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230524 23:37:45.322" endtime="20230524 23:37:47.322"/>
+</kw>
+<kw name="End Web Test" library="CommonWeb" type="TEARDOWN">
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230524 23:37:50.325" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230524 23:37:47.323" endtime="20230524 23:37:50.325"/>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20230524 23:37:50.325" endtime="20230524 23:37:56.805"/>
+</kw>
+<status status="PASS" starttime="20230524 23:37:47.323" endtime="20230524 23:37:56.805"/>
+</kw>
+<doc>This is test 2</doc>
+<tag>test2</tag>
+<status status="PASS" starttime="20230524 23:37:42.702" endtime="20230524 23:37:56.806"/>
+</test>
+<status status="PASS" starttime="20230524 23:37:28.043" endtime="20230524 23:37:56.809"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">test1</stat>
+<stat pass="1" fail="0" skip="0">test2</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="FrontOffice">FrontOffice</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
